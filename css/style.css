@@ -1,0 +1,99 @@
+@import url("./reset.css");
+@import url("./root.css");
+
+body {
+  background-image: url("/assets/mountains-universe-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 90vh;
+
+  font-family: var(--ff-main);
+  font-size: 1.8rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+
+  margin: 4rem 7.2rem;
+}
+
+.links {
+  font-size: 2rem;
+  font-weight: regular;
+  text-decoration: none;
+  color: var(--c-text);
+}
+
+.links:focus {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+main {
+  display: grid;
+  margin-top: 27rem;
+
+  font-size: 4.8rem;
+  font-weight: bold;
+  color: var(--c-text);
+
+}
+
+main div {
+  display: flex;
+  gap: 2.4rem;
+  flex-direction: column;
+
+  align-items: center;
+  justify-self: center;
+}
+
+main a {
+  color: var(--c-text);
+  text-decoration: none;
+}
+
+button {
+  padding: 1.2rem 3.2rem;
+  border: .2rem solid #FFFFFF;
+  border-radius: .5rem;
+  background: transparent;
+
+  width: 22rem;
+  height: 5rem;
+
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  color: var(--c-text);
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: white;
+  color: var(--c-button-hover);
+}
+
+.content {
+  color: var(--c-text);
+
+  width: 65rem;
+  margin: 6.3rem 10.2rem;
+}
+
+.content h2 {
+  font-size: 4.8rem;
+  line-height: 6rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.content p {
+  font-weight: regular;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+}

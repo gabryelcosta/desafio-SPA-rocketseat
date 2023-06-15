@@ -1,0 +1,7 @@
+:root {
+  font-size: 62.5%;
+
+  --ff-main: 'Roboto', sans-serif;
+  --c-text: #ffffff;
+  --c-button-hover: #02799D;
+}
